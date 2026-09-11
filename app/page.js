@@ -94,6 +94,7 @@ export default function Home() {
 
           <div className="mobileTitle">
             <div className="logo smallLogo">P</div>
+
             <div>
               <strong>Project RP</strong>
               <span>GTA RP</span>
@@ -1169,3 +1170,4 @@ export default function Home() {
       `}</style>
     </>
   );
+}
