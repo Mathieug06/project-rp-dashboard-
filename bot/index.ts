@@ -1,3 +1,5 @@
+import "dotenv/config";
+
 import {
   Client,
   GatewayIntentBits,
@@ -151,7 +153,6 @@ async function start() {
     await registerCommands();
 
     console.log("🔄 Connexion à Discord...");
-
     await client.login(TOKEN);
   } catch (error) {
     console.error("❌ Erreur au démarrage :", error);
